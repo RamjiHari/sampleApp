@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "944656838741",
+    "project_id": "allskills-2-0",
+    "storage_bucket": "allskills-2-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944656838741:android:9777afb294e3a6d737a4dc",
+        "android_client_info": {
+          "package_name": "com.allskills.app.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944656838741-srnkc1e75qgidt1qrrr6s32rriog3h4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.allskills.app.android",
+            "certificate_hash": "5f957c5dbd25b62f940060ed8101b76d42442427"
+          }
+        },
+        {
+          "client_id": "944656838741-0sbpgm3b69prrq12443c0drh7rhrao2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANH2IHlVLRyfiTJoSlnwAyYnvs1VTcM3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944656838741-0sbpgm3b69prrq12443c0drh7rhrao2r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "944656838741-9p2bkvkhaeqimq52v42f22h9tj2hl9fu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.allskills.app.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+export const Api = 'https://dev.allskills.in/includes/ajaxFromApp.php?request=' 

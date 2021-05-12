@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "allskills Dev",
+    "slug": "allskills-dev",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "description": "",
+    "android": {
+      "permissions": [
+        "READ_CONTACTS",
+        "WRITE_SETTINGS"
+      ],
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyANH2IHlVLRyfiTJoSlnwAyYnvs1VTcM3c",
+          "certificateHash": "5F:95:7C:5D:BD:25:B6:2F:94:00:60:ED:81:01:B7:6D:42:44:24:27"
+        }
+      },
+      "package": "com.allskills.app.android",
+      "versionCode": 7,
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.831142391997-jufiormfbp5mnoh8pflmpvnpnenjptvl"
+        }
+      },
+      "bundleIdentifier": "com.allskills.app.ios",
+      "buildNumber": "1.0.0"
+    }
+  }
+}
