@@ -4,9 +4,9 @@
     "slug": "allskills-dev",
     "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/icon.png",
+    "icon": "./src/common/assets/images/icon.png",
     "splash": {
-      "image": "./src/assets/images/splash.png",
+      "image": "./src/common/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
       "**/*"
     ],
     "web": {
-      "favicon": "./src/assets/images/favicon.png"
+      "favicon": "./src/assets/common/images/favicon.png"
     },
     "description": "",
     "android": {

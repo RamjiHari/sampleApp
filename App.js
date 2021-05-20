@@ -1,13 +1,15 @@
 import  React from 'react';
-import { useDispatch, useSelector ,Provider} from 'react-redux';
-import {store} from './src/redux'; 
-import AppComponent from './src/components/appComponent';
+import {Provider} from 'react-redux';
+import configureStore from './configureStore';
+import AppRoot from './AppRoot';
+
+const store = configureStore();
 function App() {
-  
-  
+
+
   return (
     <Provider store={store}>
-        <AppComponent/>
+        <AppRoot/>
     </Provider>
   );
 }
