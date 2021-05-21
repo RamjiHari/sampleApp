@@ -6,7 +6,7 @@ export const loginApi = async (data) => {
         const response = await axios.post(LOGIN_URL, {
            data
         });
-
+console.log(response)
         if(response.data.status=='success'){
             return {
                 users: response.data.user

@@ -169,7 +169,7 @@ export default function LoginScreen(props) {
         </View>
         {console.log(session,"session")}
         { session.loggingIn && <Text>Please wait logging in</Text> }
-        { session.loggedIn && <Text>UserName passwor wrong</Text> }
+        { session.error && <Text>UserName passwor wrong</Text> }
 
     </View>
     );
